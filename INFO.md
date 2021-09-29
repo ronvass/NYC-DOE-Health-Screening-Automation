@@ -8,15 +8,15 @@ Then, download the chromedriver for your chrome version (your version can be che
 
 Here's how one would customize this for personal use:
 
-First, in line 5, in the quotes, specify the location of where you placed your chrome webdriver download. (for example 'C:/Users/Your Name/Documents/chromedriver.exe')
+First, in line 6, in the quotes, specify the location of where you placed your chrome webdriver download. (for example 'C:/Users/Your Name/Documents/chromedriver.exe')
 Now it's time to input your information in the quotes on these lines:
-In line 12, input your first name.
-In line 16, input your last name.
-In line 20, input your email.
-In line 27, input your full school name.
+In line 7, input your first name.
+In line 8, input your last name.
+In line 9, input your email.
+In line 10, input your full school name.
 
 And.. that's it!
 Of course, this info setup is a one-time thing, which is the whole point of this automation.
 You can use Windows Task Scheduler to make this run every school morning by itself locally, as long as your computer is not powered off. On Mac or Linux, you can use Cronjobs.
 
-NOTE: line 46 has to be altered based on vaccination status.
+NOTE: line 48 (the `RadioButtonVaccination` definition) has to be altered based on vaccination status.
