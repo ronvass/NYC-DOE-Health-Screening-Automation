@@ -1,32 +1,34 @@
 from selenium import webdriver
 
 import time
+import os
 
-driver = webdriver.Chrome(executable_path='Input Location of Chromedriver')
+executable_path_input = "Input Location of Chromedrive"
+FirstName_input = "Input First Name"
+LastName_input = "Input Last Name"
+Email_input = "Input Email"
+SchoolName_input = "Input School Name"
+
+driver = webdriver.Chrome(executable_path=executable_path_input)
 driver.get("https://healthscreening.schools.nyc/?type=G")
-
 
 RadioButtonGuest = driver.find_element_by_xpath('//*[@id="guest_identity_form"]/div[2]/div[1]/div')
 RadioButtonGuest.click()
 
-FirstName = "Input First Name"
 first = driver.find_element_by_xpath('//*[@id="guest_first_name"]')
-first.send_keys(FirstName)
+first.send_keys(FirstName_input)
 
-LastName = "Input Last Name"
 last = driver.find_element_by_xpath('//*[@id="guest_last_name"]')
-last.send_keys(LastName)
+last.send_keys(LastName_input)
 
-Email = "Input Email"
 email = driver.find_element_by_xpath('//*[@id="guest_email"]')
-email.send_keys(Email)
+email.send_keys(Email_input)
 
 RadioButtonOther = driver.find_element_by_xpath('//*[@id="other_label"]')
 RadioButtonOther.click()
 
-SchoolName = "Input School Name"
 school = driver.find_element_by_xpath('//*[@id="guest_location"]')
-school.send_keys(SchoolName)
+school.send_keys(SchoolName_input)
 
 RadioButtonFillOut = driver.find_element_by_xpath('//*[@id="btnDailyScreeningSubmit"]/button')
 RadioButtonFillOut.click()
