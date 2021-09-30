@@ -22,3 +22,4 @@ And.. that's it!
 Of course, this info setup is a one-time thing, which is the whole point of this automation. Run it from then on each day you need it..
 
 NOTE: line 48 (the `RadioButtonVaccination` definition) has to be altered based on vaccination status.
+If you are considered fully vaccinated, replace the contents of the quotations in line 48 with `//*[@id="questions_layout"]/div[3]/div/div[3]/label`.
