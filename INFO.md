@@ -19,7 +19,6 @@ In line 9, input your email.
 In line 10, input your full school name.
 
 And.. that's it!
-Of course, this info setup is a one-time thing, which is the whole point of this automation.
-You can use Windows Task Scheduler to make this run every school morning by itself locally, as long as your computer is not powered off. On Mac or Linux, you can use Cronjobs.
+Of course, this info setup is a one-time thing, which is the whole point of this automation. Run it from then on each day you need it..
 
 NOTE: line 48 (the `RadioButtonVaccination` definition) has to be altered based on vaccination status.
