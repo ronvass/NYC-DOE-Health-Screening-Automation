@@ -1,5 +1,5 @@
 # NYC-DOE-Health-Screening-Automation
-Filling out the same questionare every morning can get quite annoying... which is why I have harnessed the power of Selenium and Chrome Webdriver to automate it — in seconds!
+Filling out the same form every morning can get quite annoying... which is why I have harnessed the power of Selenium and Chrome Webdriver to automate it — in seconds!
 
 WHAT IS THIS: This is a python script to automate filling out the DOE health screen web form when your information is the same. Your name, email and school are unlikely to change day-to-day and so this script will allow you to fill them in once and automate the rest. 
 
