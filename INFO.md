@@ -3,7 +3,7 @@ Filling out the same form every morning can get quite annoying... which is why I
 
 WHAT IS THIS: This is a python script to automate filling out the DOE health screen web form when your information is the same. Your name, email and school are unlikely to change day-to-day and so this script will allow you to fill them in once and automate the rest. 
 
-DISCLAIMER: The goal of this script is to automate filling fields that do not change over time. If your information changes in any way (e.g. your vaccination status changes or you are experiencing symptoms of COVID-19) make sure that your inputs reflect the _current_ accurate set of data. **Currently, you will have to modify the presets manually within the script for any changes to take place.**
+DISCLAIMER: The goal of this script is to automate filling fields that do not change over time. If your information changes in any way (e.g. you are experiencing symptoms of COVID-19 or have came in close contact with a person who tested positive for COVID-19) make sure that your inputs reflect the _current_ accurate set of data. **Currently, you will have to modify the presets manually within the script for any changes to take place.**
 
 SOFTWARE REQUIREMENTS: You must have Python installed, along with pip. Use pip through your terminal to install selenium by running this in your command prompt: `pip3 install selenium`.
 
