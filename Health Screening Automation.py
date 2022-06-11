@@ -35,25 +35,25 @@ RadioButtonFillOut.click()
 
 time.sleep(.5)
 
-RadioButtonAge = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[2]/div/div[3]/label')
+RadioButtonAge = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[3]/div/div[3]/label')
 RadioButtonAge.click()
 
 time.sleep(.5)
 
-RadioButtonSymptoms = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[4]/div[1]/div/div[2]/label')
+RadioButtonSymptoms = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[5]/div[1]/div/div[2]/label')
 RadioButtonSymptoms.click()
 
 time.sleep(.5)
 
-RadioButtonTest = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[4]/div[2]/div/div[2]/label')
+RadioButtonTest = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[5]/div[2]/div/div[2]/label')
 RadioButtonTest.click()
 
 time.sleep(.5)
 
-RadioButtonContact = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[4]/div[3]/div/div[2]/label')
+RadioButtonContact = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[5]/div[3]/div/div[2]/label')
 RadioButtonContact.click()
 
 time.sleep(.5)
 
-RadioButtonSubmit = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[5]/div[1]/button')
+RadioButtonSubmit = driver.find_element_by_xpath('//*[@id="questions_layout"]/div[6]/div[1]/button')
 RadioButtonSubmit.click()
